@@ -5,10 +5,17 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: beige;
 }
 h1{
+    background-color: white;
     margin:0;
+    font-size: 5rem
     /* center gallery , search on web  */
+}
+
+h1:hover{
+     background-color: cornflowerblue;
 }
 
 .back{
