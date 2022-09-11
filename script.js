@@ -80,9 +80,9 @@ captureBtnCont.addEventListener("click", () => {
   tool.fillRect(0, 0, canvas.width, canvas.height);
 
   let imageURL = canvas.toDataURL();
-//   let img = document.createElement("img");
-//   img.src = imageURL;
-//   document.body.append(img);
+  // let img = document.createElement("img");
+  // img.src = imageURL;
+  // document.body.append(img);
 
   if (db) {
     let imageId = uid();
@@ -117,7 +117,7 @@ recordBtnCont.addEventListener("click", () => {
     recorder.stop();
     // stop the timer
     stopTimer();
-  } 
+  }
 });
 
 let timer = document.querySelector(".timer");

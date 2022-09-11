@@ -2,7 +2,6 @@ let backBtn = document.querySelector(".back");
 backBtn.addEventListener("click", () => {
   location.assign("./index.html");
 });
-
 setTimeout(() => {
   if (db) {
     let imageDBTRansaction = db.transaction("image", "readonly");
